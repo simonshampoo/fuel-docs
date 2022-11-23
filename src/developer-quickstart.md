@@ -127,7 +127,7 @@ abi Counter {
 
 `#[storage(read)]` is an annotation which denotes that this function has permission to read values in storage.
 
-`fn counter() -> u64;` - We're introducing the functionality to increment the counter and denoting the function's return value.
+`fn count() -> u64;` - We're introducing the functionality to get the current count and denoting the function's return value.
 
 ### Implement ABI
 
